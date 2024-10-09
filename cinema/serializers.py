@@ -69,7 +69,7 @@ class MovieSessionListSerializer(MovieSessionSerializer):
         source="cinema_hall.capacity",
         read_only=True
     )
-    
+
     class Meta:
         model = MovieSession
         fields = (
